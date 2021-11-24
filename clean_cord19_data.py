@@ -48,7 +48,13 @@ def _clean_data():
         today = '2020-03-27' # Test
         json_filenames = glob.glob(f'data/{today}/*/*.json', recursive=False)
         df = _process_articles(json_filenames)
-        print(df.shape)
+
+        # Perform a left join and add metadata to df
+        df_metadata = pd.read_csv(f'data/{today}/metadata.csv')
+        df_metadata = df_metadata[['sha', 'publish_time', 'authors', 'source_x', 'url']]
+        df = pd.merge(df, df_metadata, left_on='paper_id', right_on='sha', how='left')
+        df.drop('sha', axis=1, inplace=True)
+
         df.to_json(f'data/{today}/cleaned_articles.json', orient='records')
 
         response = 'Successfully cleaned data'
