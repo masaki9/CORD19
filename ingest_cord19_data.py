@@ -3,48 +3,46 @@ from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 from datetime import datetime, timedelta
 from elasticsearch import Elasticsearch, helpers
+import glob
 import json
 import os
+import pendulum
 
 
-os.chdir('airflow/dags/cord19') # Set the current working directory
+os.chdir('airflow') # Set the current working directory
 
 
-def _ingest_data():
-    # today = datetime.today().strftime('%Y-%m-%d')
-    today = '2020-03-27' # Test
+def ingest_data():
+    date = datetime.today().strftime('%Y-%m-%d')
 
-    try:
-        with open(f'data/{today}/cleaned_articles.json') as json_docs_file:
+    json_filenames = glob.glob(f'data/{date}/cleaned_articles_*.json', recursive=False)
+
+    nums_ingested = []
+    for i in json_filenames:
+        with open(i) as json_docs_file:
             json_docs = json.load(json_docs_file)
 
-        es = Elasticsearch("http://localhost:9200", api_key=Variable.get('ES_API_KEY'))
-        response = helpers.bulk(es, json_docs, index = "cord19")
-    except Exception as err:
-        response = err
-    
+        es = Elasticsearch('http://localhost:9200', api_key=Variable.get('ES_API_KEY'))
+        res = helpers.bulk(es, json_docs, index="cord19")
+        nums_ingested.append(res[0])
+
+    response = f'Ingested {sum(nums_ingested)} documents'
+
     return response
 
 
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'start_date': datetime(2021, 1, 1),
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-}
-
 with DAG(
     dag_id='ingest_cord19_data',
-    schedule_interval='30 23 * * *',
-    catchup=False,
+    schedule_interval='31 23 * * *',
     tags=['cord19', 'data ingestion'],
     description='CORD19 Data Ingestion',
-    default_args=default_args
+    start_date=pendulum.datetime(2021, 1, 1, tz='local'),
+    catchup=False
 ) as dag:
     ingest_data_task = PythonOperator(
-        task_id='cord19_data_ingestion', 
-        python_callable=_ingest_data
+        task_id='cord19_data_ingestion',
+        python_callable=ingest_data,
+        execution_timeout=timedelta(seconds=2400)
     )
 
     ingest_data_task

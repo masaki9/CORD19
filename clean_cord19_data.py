@@ -3,14 +3,16 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import glob
 import json
+import numpy as np
 import os
 import pandas as pd
+import pendulum
 
 
-os.chdir('airflow/dags/cord19') # Set the current working directory
+os.chdir('airflow') # Set the current working directory
 
 
-def _process_articles(json_files):
+def process_articles(json_files):
     paper_ids, titles, abstracts, text_bodies = [], [], [], []
 
     for json_file in json_files:
@@ -42,44 +44,40 @@ def _process_articles(json_files):
     return df
 
 
-def _clean_data():
-    try:
-        # today = datetime.today().strftime('%Y-%m-%d')
-        today = '2020-03-27' # Test
-        json_filenames = glob.glob(f'data/{today}/*/*.json', recursive=False)
-        df = _process_articles(json_filenames)
-        print(df.shape)
-        df.to_json(f'data/{today}/cleaned_articles.json', orient='records')
+def clean_data():
+    date = datetime.today().strftime('%Y-%m-%d')
+    
+    json_filenames = glob.glob(f'data/{date}/document_parses/pdf_json/*.json', recursive=False)
+    df = process_articles(json_filenames)
 
-        response = 'Successfully cleaned data'
-    except Exception as err:
-        response = err
+    # Perform a left join and add metadata to df
+    df_metadata = pd.read_csv(f'data/{date}/metadata.csv', low_memory=False)
+    df_metadata = df_metadata[['sha', 'publish_time', 'authors', 'source_x', 'url']]
+    df = pd.merge(df, df_metadata, left_on='paper_id', right_on='sha', how='left')
+    df.drop('sha', axis=1, inplace=True)
+
+    # Split data into multiple files not to overwhelm ES during indexing
+    number_of_chunks = 12
+    for i, chunk in enumerate(np.array_split(df, number_of_chunks)):
+        chunk.to_json(f'data/{date}/cleaned_articles_{i}.json', orient='records')
+
+    response = 'Successfully cleaned data'
    
     return response
 
 
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'start_date': datetime(2021, 1, 1),
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-}
-
 with DAG(
     dag_id='clean_cord19_data',
-    schedule_interval='30 23 * * *',
-    start_date=datetime(2021, 1, 1),
-    catchup=False,
-    dagrun_timeout=timedelta(minutes=60),
+    schedule_interval='31 22 * * *',
     tags=['cord19', 'data cleaning'],
     description='CORD19 Data Cleaning',
-    default_args=default_args
+    start_date=pendulum.datetime(2021, 1, 1, tz='local'),
+    catchup=False
 ) as dag:
     clean_data_task = PythonOperator(
         task_id='clean_data',
-        python_callable=_clean_data
+        python_callable=clean_data,
+        execution_timeout=timedelta(seconds=2400)
     )
 
     clean_data_task
-
