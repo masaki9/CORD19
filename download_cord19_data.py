@@ -16,13 +16,10 @@ def download_data():
     if not os.path.exists('data'):
         os.makedirs('data')
 
-    # try:
     url = 'https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_' + date + '.tar.gz'
     dst = 'data/cord19.tar.gz'
     response = urlretrieve(url, dst)
     response = 'Downloaded {}'.format(response[0])
-    # except Exception as err:
-    #     response = err
 
     return response
 
