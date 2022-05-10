@@ -1,0 +1,1067 @@
+Unigrams
+               N-Gram  Frequency
+0        transmission       7973
+1            sarscov2       5224
+2             covid19       4805
+3                case       3457
+4           infection       3396
+5               model       3283
+6                 use       2729
+7               virus       2287
+8             contact       2088
+9                risk       1957
+10            disease       1929
+11               data       1914
+12               rate       1814
+13             number       1805
+14               high       1580
+15            control       1528
+16             spread       1492
+17               test       1483
+18           pandemic       1471
+19           estimate       1417
+20            patient       1396
+21           outbreak       1392
+22            measure       1361
+23         individual       1275
+24              viral       1260
+25             health       1191
+26               show       1150
+27           increase       1147
+28         population       1129
+29               time       1100
+30            include       1094
+31           epidemic       1051
+32          different        999
+33           analysis        991
+34             reduce        970
+35                day        945
+36        respiratory        938
+37            country        938
+38              human        898
+39              among        895
+40               find        893
+41            dynamic        887
+42             public        884
+43            provide        874
+44                low        868
+45             effect        866
+46          household        862
+47       intervention        860
+48         infectious        853
+49           identify        852
+50            variant        818
+51                one        817
+52             school        816
+53             factor        809
+54             social        803
+55                two        802
+56                air        790
+57       asymptomatic        790
+58           strategy        780
+59            droplet        777
+60             impact        770
+61            suggest        763
+62           positive        756
+63        coronavirus        740
+64          effective        738
+65               mask        736
+66             within        736
+67              first        723
+68          community        716
+69             sample        712
+70          potential        711
+71           evidence        707
+72            aerosol        694
+73               base        676
+74              level        667
+75                new        667
+76             infect        648
+77            compare        647
+78           infected        625
+79             system        622
+80            symptom        618
+81            develop        616
+82            setting        614
+83              early        599
+84          associate        595
+85              cause        593
+86             period        588
+87              large        574
+88             people        564
+89               need        563
+90           airborne        559
+91                 ci        557
+92             change        554
+93             region        552
+94          parameter        551
+95           consider        547
+96           exposure        546
+97            present        533
+98              china        529
+99              state        527
+100         secondary        525
+101               age        524
+102         important        523
+103      reproduction        521
+104       temperature        514
+105              role        507
+106             range        502
+107           vaccine        498
+108             novel        497
+109             child        497
+110             occur        493
+111            remain        485
+112             three        484
+113            across        483
+114             group        479
+115          clinical        478
+116            assess        475
+117          hospital        473
+118              year        472
+119           protein        471
+120             index        470
+121            policy        463
+122        distancing        463
+123        quarantine        462
+124       significant        460
+125           cluster        459
+126             death        456
+127       vaccination        453
+128            detect        452
+129       information        451
+130          transmit        448
+131   epidemiological        447
+132            global        446
+133             event        442
+134       investigate        437
+135          relative        437
+136          evaluate        434
+137           finding        431
+138          approach        429
+139  transmissibility        428
+140          indicate        427
+141              many        421
+142         reduction        421
+143         condition        420
+144           surface        414
+145       ventilation        414
+146           confirm        413
+147               rna        411
+148          sequence        411
+149             close        409
+150              cell        409
+151        healthcare        408
+152          lockdown        407
+153           prevent        403
+154               aim        403
+155             route        396
+156              work        395
+157        understand        392
+158          response        392
+159          particle        391
+160       symptomatic        391
+161              city        390
+162           observe        390
+163       demonstrate        390
+164            follow        388
+165            animal        386
+166         incidence        386
+167              sars        386
+168              host        383
+169          possible        382
+170       environment        382
+171           network        379
+172             total        377
+173           perform        377
+174               via        375
+175              care        375
+176          antibody        374
+177           several        371
+178             value        371
+179            person        369
+180         isolation        368
+181        simulation        367
+182               per        365
+183         determine        364
+184             local        360
+185          pathogen        360
+186            source        360
+187           current        359
+188              lead        358
+189           require        357
+190     effectiveness        357
+191            likely        355
+192              size        353
+193             world        351
+194          scenario        348
+195           pattern        347
+196            worker        345
+197             daily        345
+198              area        341
+199      mathematical        338
+200         available        335
+201              take        333
+202             order        333
+203          mutation        333
+204           propose        331
+205              wave        329
+206          mobility        328
+207        mitigation        328
+208           predict        327
+209            travel        326
+210         implement        325
+211             staff        324
+212           primary        323
+213           collect        321
+214       probability        321
+215             trace        320
+216     significantly        319
+217               key        319
+218              give        319
+219          describe        318
+220             march        318
+221              type        317
+222             wuhan        316
+223          interval        313
+224            genome        312
+225      surveillance        312
+226           conduct        310
+227            become        308
+228          decrease        308
+229              mean        305
+230           analyze        305
+231            indoor        304
+232         highlight        303
+233       susceptible        301
+234              face        300
+235          distance        300
+236             onset        299
+237              tgev        298
+238              make        297
+239               set        296
+240            strain        296
+241           average        295
+242          multiple        294
+243           without        293
+244          activity        291
+245            affect        290
+246            second        290
+247         detection        290
+248        proportion        289
+249           examine        288
+250             spike        288
+251           concern        287
+252           support        287
+253            highly        287
+254     environmental        285
+255             small        285
+256              less        284
+257           various        283
+258             space        283
+259            attack        283
+260             basic        282
+261              load        281
+262             since        281
+263             major        280
+264        prevalence        278
+265            severe        277
+266    characteristic        277
+267         influenza        272
+268               far        272
+269           overall        272
+270            emerge        271
+271              week        270
+272             limit        269
+273            future        267
+274            recent        265
+275           similar        264
+276          humidity        262
+277             adult        262
+278           merscov        262
+279           student        261
+280       interaction        261
+281             apply        261
+282          negative        261
+283          critical        261
+284     concentration        261
+285        conclusion        258
+286           account        258
+287        difference        257
+288        importance        257
+289        prevention        257
+290              know        251
+291       restriction        249
+292           initial        249
+293             great        246
+294              swab        243
+295              vary        241
+296            reveal        241
+297         mechanism        240
+298             rapid        240
+299              four        240
+
+Bigrams
+                             N-Gram  Frequency
+0                     public health        537
+1                  covid19 pandemic        527
+2             transmission sarscov2        522
+3               reproduction number        492
+4             sarscov2 transmission        476
+5                sarscov2 infection        409
+6              covid19 transmission        379
+7                 social distancing        338
+8              transmission dynamic        325
+9                      covid19 case        319
+10               infectious disease        306
+11            airborne transmission        306
+12                transmission rate        281
+13                sarscov2 sarscov2        278
+14             transmission covid19        273
+15                  control measure        271
+16                      attack rate        268
+17             disease transmission        260
+18                       index case        256
+19                transmission risk        250
+20                    close contact        249
+21                       viral load        244
+22               mathematical model        236
+23                    contact trace        199
+24                novel coronavirus        194
+25           community transmission        191
+26   nonpharmaceutical intervention        179
+27               virus transmission        173
+28                   spread covid19        171
+29               basic reproduction        171
+30                   infection risk        170
+31              infected individual        161
+32                    symptom onset        160
+33                        model use        156
+34                   sarscov2 virus        152
+35              reproductive number        152
+36                    test positive        151
+37            vertical transmission        150
+38                healthcare worker        149
+39                risk transmission        147
+40                    spike protein        147
+41               transmission model        145
+42                        face mask        142
+43               transmission route        138
+44                covid19 infection        136
+45                        high risk        134
+46                   secondary case        134
+47              reduce transmission        133
+48                     sarscov2 rna        132
+49                  covid19 covid19        131
+50                  contact tracing        130
+51                      risk factor        127
+52                 secondary attack        126
+53                infection control        126
+54                 covid19 outbreak        125
+55                   confirmed case        125
+56                    delta variant        125
+57                  spread sarscov2        124
+58                relative humidity        123
+59                     united state        122
+60              respiratory droplet        121
+61                respiratory tract        120
+62                household contact        119
+63                 covid19 epidemic        117
+64             aerosol transmission        116
+65                        viral rna        110
+66               viral transmission        109
+67                     case covid19        109
+68                   risk infection        109
+69                     confirm case        107
+70               transmission occur        106
+71                   school closure        106
+72                  dynamic covid19        105
+73              physical distancing        105
+74            respiratory infection        105
+75                  covid19 patient        105
+76           effective reproduction        104
+77                         age year        102
+78           household transmission        102
+79                      health care        101
+80                        age group        100
+81              confidence interval         99
+82                  serial interval         97
+83                   pregnant woman         97
+84           infection transmission         97
+85                positive sarscov2         96
+86               transmission event         96
+87              coronavirus disease         95
+88                incubation period         94
+89                 sarscov2 variant         94
+90                  disease control         93
+91                   infection rate         93
+92               transmission virus         92
+93                  control covid19         92
+94                     contact rate         92
+95                      number case         92
+96                       case death         92
+97              mitigation strategy         89
+98                  social distance         87
+99                  risk assessment         87
+100                ventilation rate         87
+101          asymptomatic infection         86
+102                symptomatic case         86
+103             transmission within         84
+104               asymptomatic case         83
+105                outbreak covid19         81
+106              distancing measure         79
+107                     second wave         79
+108                        use data         79
+109                    world health         78
+110             personal protective         77
+111   transmissible gastroenteritis         77
+112              transmission chain         77
+113              population density         77
+114              prevention control         76
+115               mode transmission         76
+116             health organization         76
+117                control strategy         75
+118                  chain reaction         75
+119                        low risk         75
+120                     reduce risk         75
+121                  social contact         74
+122                      first wave         74
+123                    around world         74
+124            protective equipment         74
+125                   increase risk         73
+126                 infected person         73
+127                  disease spread         73
+128          secondary transmission         72
+129                  spread disease         72
+130                  covid19 spread         72
+131       asymptomatic transmission         72
+132                    spread virus         71
+133                 disease covid19         70
+134            superspreading event         70
+135          transmission potential         70
+136                 sarscov2 spread         70
+137               respiratory virus         70
+138                  model estimate         69
+139                 genome sequence         69
+140                    virus spread         69
+141                    take account         69
+142                 global pandemic         68
+143                  human mobility         68
+144                   model covid19         67
+145            transmission network         67
+146                  number covid19         66
+147                   analysis show         66
+148              mitigation measure         66
+149                    nucleic acid         66
+150                within household         66
+151                polymerase chain         65
+152               sarscov2 pandemic         65
+153                      amino acid         65
+154                   risk sarscov2         65
+155            sensitivity analysis         65
+156              preventive measure         65
+157           epidemiological model         65
+158                     early stage         65
+159                        new case         64
+160                     wuhan china         64
+161              transmission among         64
+162              indoor environment         63
+163                    risk covid19         62
+164                    hand hygiene         62
+165              healthcare setting         62
+166                 variant concern         62
+167                 infect sarscov2         61
+168                    data collect         61
+169     presymptomatic transmission         61
+170                 droplet aerosol         61
+171                    primary case         61
+172                household member         60
+173                     south korea         60
+174                   surgical mask         60
+175                provide evidence         60
+176           infection probability         60
+177               acute respiratory         60
+178                     interval ci         60
+179             respiratory disease         60
+180             nasopharyngeal swab         60
+181            epidemiological data         59
+182                  direct contact         59
+183            coronavirus sarscov2         59
+184              travel restriction         58
+185              model transmission         56
+186                 sarscov2 genome         56
+187                 influenza virus         56
+188                european country         56
+189                         per day         56
+190                  cause sarscov2         56
+191           estimate transmission         56
+192           phylogenetic analysis         56
+193                  mortality rate         56
+194                 finding suggest         55
+195                  important role         55
+196                        year old         55
+197         nosocomial transmission         55
+198       humantohuman transmission         55
+199                   model predict         54
+200            temperature humidity         54
+201                     growth rate         54
+202                   exposure time         54
+203                   test sarscov2         54
+204            prevent transmission         54
+205            numerical simulation         54
+206                 model parameter         54
+207                     care worker         54
+208                      seir model         53
+209              local transmission         53
+210                mers coronavirus         53
+211                   epidemic wave         53
+212                    many country         53
+213             health intervention         53
+214                number infection         53
+215                transmission via         52
+216                      high level         52
+217                   index patient         52
+218                   positive case         52
+219             compartmental model         52
+220              route transmission         52
+221          susceptible individual         51
+222                 covid19 disease         51
+223                  number contact         51
+224                      within day         51
+225               surveillance data         51
+226                      air travel         51
+227                  health measure         51
+228          potential transmission         51
+229                  sarscov2 cause         51
+230             secondary infection         51
+231         asymptomatic individual         51
+232               intervention npis         50
+233                  epidemic model         50
+234                 immune response         50
+235                       hong kong         49
+236                   fluid dynamic         49
+237                  transmit virus         49
+238                       model fit         49
+239               sarscov2 outbreak         49
+240                        mask use         49
+241                       wear mask         49
+242                   relative risk         49
+243           indirect transmission         48
+244               sarscov2 positive         48
+245                  hubei province         48
+246              significantly high         48
+247                    large number         48
+248                       sars sars         48
+249                agentbased model         48
+250                   mobility data         48
+251                evidence suggest         48
+252           meteorological factor         47
+253           differential equation         47
+254            transmission control         47
+255                regression model         47
+256                   air pollution         47
+257                    whole genome         47
+258                 patient covid19         47
+259                   new infection         47
+260                disease outbreak         47
+261            temperature relative         47
+262                factor associate         47
+263                     hvac system         46
+264                   fatality rate         46
+265                  play important         46
+266            environmental factor         46
+267                     time series         46
+268             neutralize antibody         46
+269                   cause covid19         46
+270                     high number         46
+271          reduction transmission         46
+272            transmission pattern         46
+273                  model sarscov2         46
+274                   health system         45
+275                       use model         45
+276              infection sarscov2         45
+277                  model simulate         45
+278                   family member         45
+279                     day symptom         45
+280            asymptomatic carrier         44
+281                    rate covid19         44
+282                 infection among         44
+283        symptomatic asymptomatic         44
+284                  intensive care         44
+285          effective reproductive         44
+286             logistic regression         44
+287                      model base         44
+288                   positive test         44
+289                      number new         44
+290                 contact pattern         44
+291                    total number         44
+292     asymptomatic presymptomatic         44
+293                    viral genome         43
+294               credible interval         43
+295                    use estimate         43
+296                      viral shed         43
+297                number secondary         43
+298                 number infected         43
+299               upper respiratory         43
+
+Trigrams
+                                        N-Gram  Frequency
+0                    basic reproduction number        167
+1                        secondary attack rate        124
+2                effective reproduction number        103
+3                    world health organization         71
+4                personal protective equipment         67
+5                    polymerase chain reaction         65
+6                       confidence interval ci         57
+7                   public health intervention         52
+8                    social distancing measure         52
+9                        public health measure         51
+10         nonpharmaceutical intervention npis         50
+11                transmission dynamic covid19         48
+12                   infection control measure         48
+13               temperature relative humidity         47
+14                         play important role         45
+15               effective reproductive number         44
+16                          health care worker         44
+17              vertical transmission sarscov2         43
+18                  novel coronavirus sarscov2         40
+19                           day symptom onset         40
+20                   novel coronavirus disease         40
+21                   basic reproductive number         38
+22         transmissible gastroenteritis virus         38
+23              airborne transmission sarscov2         37
+24                 computational fluid dynamic         36
+25                      test positive sarscov2         36
+26                    mers coronavirus merscov         35
+27             infectious disease transmission         35
+28                 coronavirus disease covid19         34
+29                     upper respiratory tract         33
+30                  gastroenteritis virus tgev         32
+31                     cause sarscov2 sarscov2         32
+32                        public health policy         30
+33                          covid19 case death         30
+34              transmission sarscov2 sarscov2         30
+35                       number confirmed case         29
+36                             high viral load         28
+37                         intensive care unit         28
+38                             attack rate sar         28
+39   transmissible gastroenteritis coronavirus         27
+40               transmission dynamic sarscov2         27
+41                       number secondary case         27
+42                  household secondary attack         27
+43                 transmission route sarscov2         27
+44                       infection attack rate         27
+45                 transmission sarscov2 virus         26
+46                       whole genome sequence         26
+47                 estimate basic reproduction         26
+48                      center disease control         26
+49                          case fatality rate         25
+50                               new york city         25
+51                      healthcare worker hcws         25
+52               aerosol transmission sarscov2         24
+53                  model covid19 transmission         24
+54                 physical distancing measure         24
+55                estimate reproduction number         24
+56            gastroenteritis coronavirus tgev         23
+57                  disease control prevention         23
+58                               use face mask         22
+59                              child age year         22
+60                          contact trace data         22
+61              susceptible sarscov2 infection         22
+62                  risk sarscov2 transmission         21
+63                    protective equipment ppe         21
+64                      reproduction number rt         21
+65                      public health response         21
+66                  develop mathematical model         21
+67                         among close contact         21
+68                        global public health         21
+69                      sarscov2 spike protein         21
+70                  model transmission dynamic         21
+71                       test positive covid19         20
+72                   risk covid19 transmission         20
+73                          case close contact         20
+74                 reproduction number covid19         20
+75                           attack rate among         20
+76                             são paulo state         20
+77                    covid19 covid19 pandemic         20
+78                         second wave covid19         20
+79                             number new case         20
+80                         sarscov2 rna detect         20
+81                reproduction number estimate         20
+82                              wear face mask         20
+83                  number infected individual         20
+84                   emerge infectious disease         19
+85                      confirmed covid19 case         19
+86                           fluid dynamic cfd         19
+87                    control covid19 pandemic         19
+88             timevarying reproduction number         19
+89                        receptor bind domain         19
+90                infection prevention control         19
+91                  outbreak novel coronavirus         19
+92                     sarscov2 sarscov2 cause         19
+93                  sars coronavirus2 sarscov2         19
+94                  receptorbinding domain rbd         19
+95                    severe acute respiratory         19
+96           angiotensinconverting enzyme ace2         19
+97                         high risk infection         19
+98                         number covid19 case         18
+99                         variant concern voc         18
+100                        major public health         18
+101                       covid19 confirm case         18
+102             ordinary differential equation         18
+103                   risk factor transmission         18
+104                respiratory syncytial virus         18
+105                  patient healthcare worker         18
+106                      low respiratory tract         18
+107                  spread infectious disease         18
+108                 airborne transmission risk         18
+109                 risk transmission sarscov2         18
+110                       confirm covid19 case         18
+111                   social distancing policy         18
+112                              face mask use         18
+113             respiratory infectious disease         18
+114            community transmission sarscov2         18
+115                       hubei province china         18
+116                       mean serial interval         18
+117               covid19 transmission dynamic         18
+118                      presence sarscov2 rna         17
+119                     covid19 pandemic cause         17
+120                    public health emergency         17
+121                     high transmission rate         17
+122              airborne transmission covid19         17
+123             social distancing intervention         17
+124                  transmission rate covid19         17
+125                model sarscov2 transmission         17
+126                 estimate transmission rate         17
+127                     use mathematical model         17
+128                 transmission risk sarscov2         17
+129                       inform public health         17
+130                infectious disease outbreak         17
+131                     reproduction number r0         17
+132               reduce transmission sarscov2         17
+133                       chain reaction rtpcr         17
+134            transmission infectious disease         16
+135                  logistic regression model         16
+136                      sarscov2 nucleic acid         16
+137                      positive sarscov2 rna         16
+138                    risk sarscov2 infection         16
+139                      incubation period day         16
+140                   ongoing covid19 pandemic         16
+141              airborne disease transmission         16
+142            transmission sarscov2 infection         16
+143                       early stage pandemic         16
+144                   reduce risk transmission         16
+145                         first wave covid19         16
+146                    whole genome sequencing         16
+147                          nucleic acid test         16
+148                     sarscov2 delta variant         16
+149                   sarscov2 variant concern         16
+150                     sarscov2 cause covid19         16
+151                           viral rna detect         16
+152                        serial interval day         16
+153                 sarscov2 transmission risk         15
+154                acute respiratory infection         15
+155            porcine respiratory coronavirus         15
+156                            median age year         15
+157                         time symptom onset         15
+158                         daily confirm case         15
+159                sarscov2 sarscov2 infection         15
+160                              play key role         15
+161                      wave covid19 pandemic         15
+162             community transmission covid19         15
+163                 disease transmission model         15
+164                          adjust odds ratio         15
+165                    among household contact         15
+166                       impact public health         14
+167                         chain reaction pcr         14
+168                      credible interval cri         14
+169              relative importance different         14
+170                     disease cause sarscov2         14
+171                       public health social         14
+172                    pandemic cause sarscov2         14
+173            mathematical model transmission         14
+174                  science total environment         14
+175          possibility vertical transmission         14
+176                             year year year         14
+177                     covid19 cause sarscov2         14
+178              prevent sarscov2 transmission         14
+179                  response covid19 pandemic         14
+180               different transmission route         14
+181                       public health threat         14
+182                       identify risk factor         14
+183                 acute respiratory distress         13
+184               reduce sarscov2 transmission         13
+185                respiratory tract infection         13
+186            sarscov2 infection transmission         13
+187                      cycle threshold value         13
+188                   average number secondary         13
+189              transmission covid19 pandemic         13
+190                         model take account         13
+191                        different age group         13
+192                 novel coronavirus 2019ncov         13
+193                  transmission risk covid19         13
+194                    public health authority         13
+195                      infect million people         13
+196                            peak viral load         13
+197                     quanta generation rate         13
+198                     public health official         13
+199              timevarying transmission rate         13
+200                        early stage covid19         12
+201                sarscov2 transmission among         12
+202              transmission within household         12
+203                   reduce transmission risk         12
+204                     mathematical model use         12
+205                transmission sarscov2 among         12
+206     proportion presymptomatic transmission         12
+207                      reduce spread covid19         12
+208                      health social measure         12
+209                        syncytial virus rsv         12
+210                        virus cause covid19         12
+211                       clinical attack rate         12
+212                     transmission sars cov2         12
+213                        viral spike protein         12
+214                 nasopharyngeal swab sample         12
+215                     close contact infected         12
+216                reduce covid19 transmission         12
+217                         health care system         12
+218                       threat public health         12
+219                        social contact data         12
+220               control covid19 transmission         12
+221                  covid19 transmission rate         12
+222                               age year old         12
+223                    asymptomatic index case         12
+224                 mathematical model covid19         12
+225                         play critical role         12
+226                   current covid19 pandemic         12
+227              respiratory distress syndrome         12
+228                       wuhan hubei province         12
+229                       corona virus disease         12
+230                       control measure take         12
+231                 model disease transmission         12
+232                        spread around world         12
+233                 prevention control measure         12
+234                     mean incubation period         11
+235          instantaneous reproductive number         11
+236           reverse transcription polymerase         11
+237                model simulate transmission         11
+238                   sarscov2 positivity rate         11
+239                       number new infection         11
+240               dynamic covid19 transmission         11
+241               sarscov2 transmission within         11
+242                      public health concern         11
+243                        humidity wind speed         11
+244              prevent transmission sarscov2         11
+245            household transmission sarscov2         11
+246                            change per hour         11
+247             transcription polymerase chain         11
+248                    use personal protective         11
+249                    high population density         11
+250                       public health system         11
+251                       country around world         11
+252                           new confirm case         11
+253                             low viral load         11
+254               sarscov2 transmission school         11
+255                            play major role         11
+256              effectiveness control measure         11
+257                     manual contact tracing         11
+258                affect covid19 transmission         11
+259                    among healthcare worker         11
+260                high community transmission         11
+261              mitigate covid19 transmission         11
+262                       public health agency         11
+263            estimate effective reproduction         11
+264                 transmission close contact         11
+265                      increase risk covid19         11
+266             evidence vertical transmission         11
+267                   infectious disease model         11
+268                         cycle threshold ct         11
+269                    nucleic acid extraction         11
+270                      reduce infection risk         11
+271                      play significant role         11
+272                         markov chain monte         11
+273                     delta variant sarscov2         11
+274                    main transmission route         11
+275                        first epidemic wave         11
+276                        case secondary case         11
+277                   model infectious disease         11
+278                          chain monte carlo         11
+279                 case hospitalization death         11
+280                 covid19 transmission among         11
+281              key epidemiological parameter         11
+282                   control covid19 epidemic         11
+283                             air change per         11
+284          stability diseasefree equilibrium         11
+285                     longterm care facility         11
+286                  novel coronavirus covid19         11
+287   asymptomatic presymptomatic transmission         11
+288                   sarscov2 genome sequence         11
+289              sarscov2 transmission dynamic         11
+290                            bind domain rbd         11
+291               fraction infected individual         11
+292                    novel sarscov2 sarscov2         11
+293            longrange airborne transmission         11
+294                 covid19 infectious disease         11
+295              reduce community transmission         11
+296            diseasefree endemic equilibrium         11
+297                        spread across world         10
+298                       princess cruise ship         10
+299               extent sarscov2 transmission         10
+
+4-grams
+                                            N-Gram  Frequency
+0         transmissible gastroenteritis virus tgev         29
+1                        secondary attack rate sar         28
+2                  household secondary attack rate         26
+3               estimate basic reproduction number         24
+4   transmissible gastroenteritis coronavirus tgev         22
+5                center disease control prevention         20
+6                personal protective equipment ppe         20
+7                  computational fluid dynamic cfd         19
+8                novel coronavirus disease covid19         18
+9                    polymerase chain reaction pcr         14
+10                    basic reproduction number r0         14
+11                     secondary attack rate among         12
+12                    public health social measure         12
+13             acute respiratory distress syndrome         11
+14          reverse transcription polymerase chain         11
+15              model transmission dynamic covid19         11
+16                        receptor bind domain rbd         11
+17                        markov chain monte carlo         11
+18               use personal protective equipment         11
+19          estimate effective reproduction number         11
+20                 respiratory syncytial virus rsv         11
+21         transcription polymerase chain reaction         11
+22                        mean serial interval day         10
+23                effective reproduction number rt         10
+24                    fluid dynamic cfd simulation         10
+25                 polymerase chain reaction rtpcr         10
+26          quantitative microbial risk assessment         10
+27                pandemic cause sarscov2 sarscov2         10
+28                 covid19 cause sarscov2 sarscov2         10
+29                             air change per hour         10
+30                     first wave covid19 pandemic          9
+31              temperature relative humidity wind          9
+32            porcine respiratory coronavirus prcv          9
+33                         health care worker hcws          9
+34               incubation period serial interval          9
+35                  secondary clinical attack rate          9
+36             calculate basic reproduction number          9
+37               world health organization declare          9
+38                             sars sars mers mers          9
+39                  polymerase chain reaction test          9
+40                   number confirmed covid19 case          9
+41                 disease cause sarscov2 sarscov2          9
+42                         covid19 case death cfrs          9
+43           transmission sarscov2 early pregnancy          8
+44                play important role transmission          8
+45         transcriptase polymerase chain reaction          8
+46          reverse transcriptase polymerase chain          8
+47                             year year year year          8
+48                         intensive care unit icu          8
+49                 use computational fluid dynamic          8
+
+5-grams
+                                                  N-Gram  Frequency
+0        reverse transcription polymerase chain reaction         11
+1             computational fluid dynamic cfd simulation         10
+2        reverse transcriptase polymerase chain reaction          8
+3       transmissible gastroenteritis virus tgev porcine          7
+4                          markov chain monte carlo mcmc          7
+5     relative contribution different transmission route          6
+6                           use markov chain monte carlo          6
+7           prevent sarscov2 outbreak congregate setting          6
+8             severe acute respiratory coronavirus virus          6
+9         vertical transmission sarscov2 early pregnancy          6
+10          acute respiratory coronavirus virus sarscov2          6
+11                 quality base five criterion important          6
+12                       ratio rr confidence interval ci          6
+13                 center disease control prevention cdc          6
+14              spike protein receptorbinding domain rbd          6
+15                     secondary attack rate among close          6
+16                       attack rate among close contact          6
+17      siqd model quarantineadjusted incidence function          6
+18              estimate household secondary attack rate          5
+19  symptom onset proportion presymptomatic transmission          5
+20                    estimate secondary attack rate sar          5
+21      preferred reporting item systematic metaanalyses          5
+22               part open evidence transmission dynamic          5
+23         transcription polymerase chain reaction rtpcr          5
+24                 base five criterion important finding          5
+25                search litcovid google scholar covid19          5
+26                    odds ratio aor confidence interval          5
+27            use quantitative microbial risk assessment          5
+28              covid19 pandemic cause sarscov2 sarscov2          5
+29                     exit strategy life society return          5
+30                          data collect são paulo state          5
+31               country currently deal covid19 epidemic          5
+32              pandemic world health organization march          5
+33            declare pandemic world health organization          5
+34              litcovid google scholar covid19 database          5
+35                     risk ratio rr confidence interval          5
+36           temperature relative humidity wind velocity          5
+37                   strategy life society return normal          5
+38                              year year year year year          5
+39     reproduction number effective reproduction number          5
+40      basic reproduction number effective reproduction          5
+41               expected number secondary case generate          5
+42         location similar transmission potential wuhan          5
+43              transmission time relative symptom onset          5
+44       computational biology plo computational biology          5
+45            virus tgev porcine respiratory coronavirus          4
+46       relative humidity effective reproductive number          4
+47                  porcine epidemic diarrhea virus pedv          4
+48                      face mask eye protection prevent          4
+49                   household secondary attack rate sar          4
+
+6-grams
+                                                             N-Gram  Frequency
+0               severe acute respiratory coronavirus virus sarscov2          6
+1                         secondary attack rate among close contact          6
+2             reverse transcription polymerase chain reaction rtpcr          5
+3           basic reproduction number effective reproduction number          5
+4                  declare pandemic world health organization march          5
+5                          exit strategy life society return normal          5
+6                              risk ratio rr confidence interval ci          5
+7                     quality base five criterion important finding          5
+8                                 use markov chain monte carlo mcmc          5
+9                   search litcovid google scholar covid19 database          5
+10                     social contact data population mobility data          4
+11                      spread virus assess efficacy policy measure          4
+12                          part original submission ed post supply          4
+13           propose way efficiently identify mitigate transmission          4
+14                        public health measure impose late january          4
+15  tremendous implication risk assessment coronavirus transmission          4
+16                   sarscov2 test continue propose way efficiently          4
+17                   test continue propose way efficiently identify          4
+18       gastroenteritis virus tgev porcine respiratory coronavirus          4
+19                                 genomic copy per cubic meter air          4
+20         sarscov2 outbreak occur among intercollegiate university          4
+21             policymakers take measured approach implement school          4
+22                      predict spread virus assess efficacy policy          4
+23         realtime reverse transcription polymerase chain reaction          4
+24          evidence effectiveness harmful effect policymakers take          4
+25                  united state model calibrate international case          4
+26               harmful effect policymakers take measured approach          4
+27           among intercollegiate university athletic program fall          4
+28                two sarscov2 outbreak occur among intercollegiate          4
+29             effect policymakers take measured approach implement          4
+30                            model use predict spread virus assess          4
+31          effectiveness harmful effect policymakers take measured          4
+32                     contact child attend outofhome care facility          4
+33     transmissible gastroenteritis virus tgev porcine respiratory          4
+34        way efficiently identify mitigate transmission congregate          4
+35               continue propose way efficiently identify mitigate          4
+36    efficiently identify mitigate transmission congregate setting          4
+37         outbreak occur among intercollegiate university athletic          4
+38            spread covid19 disease special focus transmissibility          4
+39          occur among intercollegiate university athletic program          4
+40        varied evidence effectiveness harmful effect policymakers          4
+41                mathematical model spread covid19 disease special          4
+42                            odds ratio aor confidence interval ci          4
+43                            form part original submission ed post          4
+44                       model spread covid19 disease special focus          4
+45                         use predict spread virus assess efficacy          4
+46                  virus tgev porcine respiratory coronavirus prcv          4
+47                       value model produce key indicator severity          4
+48                    early stage covid19 pandemic generate analyse          3
+49                complexity circumvent appeal scale principle lead          3
