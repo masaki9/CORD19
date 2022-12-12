@@ -56,7 +56,7 @@ def plot_coherence_scores(coherence_scores, start, end):
     plt.title('LDA Coherence Scores', size=18)
     ax = plt.gca()
     utils_vis.add_bar_value_labels(ax)
-    plt.savefig('outputs/coherence_scores.png')
+    plt.savefig('output/coherence_scores.png')
     # plt.show()
 
 
@@ -115,5 +115,5 @@ if __name__ == "__main__":
 
     # Visualize the topics
     lda_vis_prepared = gensimvis.prepare(topic_model=lda_model, corpus=corpus, dictionary=id2word, sort_topics=False)
-    pyLDAvis.save_html(lda_vis_prepared, 'outputs/lda_topic_model.html')
+    pyLDAvis.save_html(lda_vis_prepared, 'output/lda_topic_model.html')
     # pyLDAvis.show(lda_vis_prepared, local=False)  #  If False, use the standard urls.

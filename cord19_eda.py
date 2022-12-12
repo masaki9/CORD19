@@ -18,15 +18,15 @@ data = 'data/cord19_transmission_processed.csv'
 df = pd.read_csv(data, header=0, sep=',')
 
 plt.figure(figsize=(20, 12))
-wc = WordCloud(height=2000, width=2000, background_color='lightgrey')
+wc = WordCloud(height=2000, width=2000, background_color='lightgrey', colormap='copper_r')
 wc = wc.generate(' '.join(df['abstract_processed']))
 plt.imshow(wc, interpolation='bilinear')
-plt.title('Common Words in COVID-19 Transmission Related Articles', size=18)
+# plt.title('Common Words in COVID-19 Transmission Related Articles', size=18)
 plt.axis('off')
 # plt.show()
-plt.savefig('outputs/word_cloud.png')
+plt.savefig('output/wordcloud.png')
 
-ngrams = open('outputs/ngrams.txt', 'w')
+ngrams = open('output/ngrams.txt', 'w')
 
 # Unigrams
 unigrams = utils_text.get_ngrams_df(df, 'abstract_processed', 1)
@@ -35,15 +35,15 @@ print('Unigrams\n{}'.format(unigrams.head(n=300)), file=ngrams)
 plt.figure(figsize=(20, 12))
 x_axis = unigrams['N-Gram'][:20]
 y_axis = unigrams['Frequency'][:20]
-plt.bar(x_axis, y_axis, color='lightgreen')
+plt.bar(x_axis, y_axis, color='sienna')
 plt.xlabel('Unigram', size=14)
 plt.xticks(rotation=15)
 plt.ylabel('Frequency', size=14)
-plt.title('Top 20 Unigrams Related to Transmission', size=18)
+plt.title('Top 20 Unigrams Related to COVID-19 Transmission', size=18)
 ax = plt.gca()
 utils_vis.add_bar_value_labels(ax)
 # plt.show()
-plt.savefig('outputs/top20_unigrams.png')
+plt.savefig('output/top20_unigrams.png')
 
 
 # Bigrams
@@ -53,15 +53,15 @@ print('\nBigrams\n{}'.format(bigrams.head(n=300)), file=ngrams)
 plt.figure(figsize=(20, 12))
 x_axis = bigrams['N-Gram'][:20]
 y_axis = bigrams['Frequency'][:20]
-plt.bar(x_axis, y_axis, color='lightgreen')
+plt.bar(x_axis, y_axis, color='sienna')
 plt.xlabel('Bigram', size=14)
 plt.xticks(rotation=30)
 plt.ylabel('Frequency', size=14)
-plt.title('Top 20 Bigrams Related to Transmission', size=18)
+plt.title('Top 20 Bigrams Related to COVID-19 Transmission', size=18)
 ax = plt.gca()
 utils_vis.add_bar_value_labels(ax)
 # plt.show()
-plt.savefig('outputs/top20_bigrams.png')
+plt.savefig('output/top20_bigrams.png')
 
 
 # Trigrams
@@ -71,16 +71,16 @@ print('\nTrigrams\n{}'.format(trigrams.head(n=300)), file=ngrams)
 plt.figure(figsize=(20, 12))
 x_axis = trigrams['N-Gram'][:20]
 y_axis = trigrams['Frequency'][:20]
-plt.bar(x_axis, y_axis, color='lightgreen')
+plt.bar(x_axis, y_axis, color='sienna')
 plt.xlabel('Trigram', size=14)
 plt.xticks(rotation=30)
 plt.ylabel('Frequency', size=14)
-plt.title('Top 20 Trigrams Related to Transmission', size=18)
+plt.title('Top 20 Trigrams Related to COVID-19 Transmission', size=18)
 ax = plt.gca()
 utils_vis.add_bar_value_labels(ax)
 plt.gcf().subplots_adjust(bottom=0.15)
 # plt.show()
-plt.savefig('outputs/top20_trigrams.png')
+plt.savefig('output/top20_trigrams.png')
 
 
 # 4-grams

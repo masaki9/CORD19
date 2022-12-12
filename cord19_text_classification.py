@@ -85,7 +85,7 @@ def plot_confusion_matrix(y_test, y_pred):
     plt.xlabel('Predicted', size=font_size)
     plt.ylabel('Actual', size=font_size)
     plt.title('COVID-19 Transmission Article Predictions - Actual vs Predicted', size=font_size+2)
-    plt.savefig('outputs/confusion_matrix.png')
+    plt.savefig('output/confusion_matrix.png')
     # plt.show()
 
 
