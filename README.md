@@ -8,7 +8,7 @@
 
 #### Word Cloud
 
-![World Cloud for COVID-19 Transmission-Related Articles](output/wordcloud.png)
+<img src="output/wordcloud.png" alt="World Cloud for COVID-19 Transmission-Related Articles" width="60%" />
 
 #### Topic Model
 
